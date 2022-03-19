@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+:root {
+  --primary: #dca752;
+  font-family: "Permanent Marker", cursive;
+}
+
+body {
+  background-color: #e2c79a;
+}
+
+#title {
+  color: #272623;
+  display: block;
+  margin: auto;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+#container {
+  display: block;
+  text-align: center;
+}
+
+#txt-input {
+  background-color: var(--primary);
+  max-width: 500px;
+  display: block;
+  width: 80%;
+  height: 10vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+#btn-translate {
+  border: none;
+  margin-top: 1rem;
+  font-weight: bold;
+  height: 3rem;
+  width: 10rem;
+  background-color: var(--primary);
+  border-radius: 0.5rem;
+}
+
+#txt-output {
+  background-color: var(--primary);
+  max-width: 500px;
+  border: 1px black solid;
+  display: block;
+  width: 80%;
+  height: 10vh;
+  margin: auto;
+  padding: 1rem;
+}
+
+#image {
+  height: 10rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+}
+
+#title {
+  padding-left: 1rem;
+}
+
+.outputDiv {
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#about {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  background-color: var(--primary);
+}
+
+#para {
+  text-align: center;
+  font-size: small;
+}
